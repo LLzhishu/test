@@ -1,0 +1,12 @@
+clone作用，将远程仓库复制到本地
+add作用是将工作区文件提交到暂存区，追踪文件状态
+merge作用是将目标分支合并到当前分支
+checkout作用是切换分支，后面加参数-b则创建新分支并切换过去
+commit是将暂存区的内容提交到版本库
+remote是关联远程仓库的操作 remote rm删除远程仓库分支 remote -v查看与远程仓库关联状态
+remote add 是关联目标远程仓库
+pull作用是去下远程仓库目标分支并合并到当前分支相当于fetch加merge
+fetch只是简单去下目标分支
+push是将现在的分支合并到目标远程分支中
+stash是将工作区的内容save起来并暂时清除，之后可用stash apply不删除stash恢复后stash drop删除stash；也可用直接stash pop完成恢复并删除stash
+如果产生冲突那么需要手动解决冲突，可以使用cat查看冲突具体在哪，之后手动改正后commit即可
