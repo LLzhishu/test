@@ -1,4 +1,0 @@
-This file is my test file.
-I am changing my file.
-I am adding one line.
-modifying................................................
